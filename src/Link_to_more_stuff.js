@@ -8,55 +8,48 @@ import Homepage from "./homepage";
 
 export default function Link_to_more_stuff() {
   return (
-    <div className="mylinks">
-      <div className="mylink_logo">
-        <Link to="/">
-          <img
-            src="images/Five-Guys-Emblem-500x281.png"
-            width="120px"
-            height="100px"
-            className="image_logo"
-          />
-        </Link>
+    <div>
+      <div className="mylinks">
+        <div className="mylink_logo">
+          <Link to="/">
+            <img
+              src="images/Five-Guys-Emblem-500x281.png"
+              width="120px"
+              height="100px"
+              className="image_logo"
+            />
+          </Link>
+        </div>
+        <div className="mylink">
+          <Link className="mylink_link" to="/Menu_and_Orders">
+            Menu and Orders
+          </Link>
+        </div>
+        <div className="mylink">
+          <Link className="mylink_link" to="/Location_and_about_us">
+            Location and about us
+          </Link>
+        </div>
+        <div className="mylink">
+          <Link className="mylink_link" to="/careers">
+            Careers
+          </Link>
+        </div>
+        <div className="mylink">
+          <Link className="mylink_link" to="/Merch">
+            Merch
+          </Link>
+        </div>
+      </div>
         <Routes>
           <Route path="/" element={<Homepage />} />
-        </Routes>
-      </div>
-      <div className="mylink">
-        <Link className="mylink_link" to="/Menu_and_Orders">
-          Menu and Orders
-        </Link>
-        <Routes>
           <Route path="/Menu_and_Orders" element={<Menu_and_Orders />} />
-        </Routes>
-      </div>
-      <div className="mylink">
-        <Link className="mylink_link" to="/Location_and_about_us">
-          Location and about us
-        </Link>
-        <Routes>
           <Route
             path="/Location_and_about_us"
             element={<Location_and_about_us />}
           />
-        </Routes>
-      </div>
-      <div className="mylink">
-        <Link className="mylink_link" to="/careers">
-          Careers
-        </Link>
-        <Routes>
           <Route path="/careers" element={<Careers />} />
         </Routes>
-      </div>
-      <div className="mylink">
-        <Link className="mylink_link" to="/Merch">
-          Merch
-        </Link>
-        <Routes>
-          <Route path="/Merch" element={<Merch />} />
-        </Routes>
-      </div>
     </div>
   );
 }
