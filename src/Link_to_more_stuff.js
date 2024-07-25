@@ -49,6 +49,7 @@ export default function Link_to_more_stuff() {
             element={<Location_and_about_us />}
           />
           <Route path="/careers" element={<Careers />} />
+          <Route path="/Merch" element={<Merch />} />
         </Routes>
     </div>
   );
