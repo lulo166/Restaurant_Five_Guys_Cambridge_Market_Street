@@ -37,11 +37,36 @@
   width: 100vw; /* Augmente la largeur à 100% de la largeur de la fenêtre */
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-image: url('/public/images/Five-Guys-Frontpage-Image.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  color: rgb(159, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.mycard {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 25px;
+  padding: 25px;
+}
+
+.cardbox {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 10px solid blue;
+}
+
+.mycard:hover {
+  background-color: green;
+  transform: scale(1.2);
+  translate: 50px 0px;
+  transition: 500ms;
 }
