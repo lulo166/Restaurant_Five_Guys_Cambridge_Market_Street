@@ -1,0 +1,32 @@
+.App {
+  font-family: Roboto;
+  text-align: center;
+}
+
+.image_logo_box {
+  background-color: ;
+}
+
+.homepage_text {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.mylink_logo {
+  margin-right: 40px;
+}
+
+.mylink {
+  margin-right: 40px;
+}
+
+.mylinks {
+  display: flex;
+  margin-left: ;
+}
+
+.mylink_link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
