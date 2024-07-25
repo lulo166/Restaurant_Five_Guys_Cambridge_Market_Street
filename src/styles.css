@@ -33,13 +33,15 @@
 }
 
 .homepage_text {
-  height: 80%;
-  width: 80%;
+  height: 100vh;/* Augmente la hauteur à 100% de la hauteur de la fenêtre */
+  width: 100vw; /* Augmente la largeur à 100% de la largeur de la fenêtre */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url('/public/images/Five-Guys-Frontpage-Image.png');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
+  color: rgb(159, 0, 0);
 }
