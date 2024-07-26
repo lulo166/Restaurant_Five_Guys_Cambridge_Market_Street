@@ -1,7 +1,9 @@
 import "./styles.css";
 import Mycard from "./Mycard";
+import { useState } from "react";
 
 export default function Menu_and_Orders() {
+  const [totalOrder, setTotalOrder] = useState(0);
   return (
 
   <div className="cardbox">
