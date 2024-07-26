@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Careers from "./careers";
 import Location_and_about_us from "./Location_and_about_us";
 import Menu_and_Orders from "./Menu_and_Orders";
-import Merch from "./Merch";
 import Homepage from "./homepage";
 
 export default function Link_to_more_stuff() {
@@ -35,11 +34,6 @@ export default function Link_to_more_stuff() {
             Careers
           </Link>
         </div>
-        <div className="mylink">
-          <Link className="mylink_link" to="/Merch">
-            Merch
-          </Link>
-        </div>
       </div>
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -49,7 +43,6 @@ export default function Link_to_more_stuff() {
             element={<Location_and_about_us />}
           />
           <Route path="/careers" element={<Careers />} />
-          <Route path="/Merch" element={<Merch />} />
         </Routes>
     </div>
   );
