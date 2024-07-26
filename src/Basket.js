@@ -2,7 +2,7 @@ import "./styles.css";
 
 export default function Basket(props) {
   return (
-  <div>
+  <div className="Basket" >
     <div>
       Number of Hamburger ordered: {props.totalHamburger}
     </div>
