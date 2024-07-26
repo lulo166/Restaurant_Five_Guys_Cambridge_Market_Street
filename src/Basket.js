@@ -1,7 +1,4 @@
 import "./styles.css";
-import { useState } from "react";
-import Mycard from "./Mycard";
-import Menu_and_Orders from "./Menu_and_Orders";
 
 export default function Basket(props) {
   return (
@@ -35,6 +32,9 @@ export default function Basket(props) {
     </div>
     <div>
       Number of items: {props.totalHamburger + props.totalCheese + props.totalBacon + props.totalFries + props.totalCajunFries + props.totalCocaCola + props.totalSprite + props.totalFanta + props.totalWater}
+    </div>
+    <div>
+      Total cost: {props.totalHamburger*10 + props.totalCheese*11 + props.totalBacon*12 + props.totalFries*4 + props.totalCajunFries*5 + props.totalCocaCola*2 + props.totalSprite*2 + props.totalFanta*2 + props.totalWater*1}$
     </div>
     <button>Pay</button>
   </div>

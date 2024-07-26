@@ -15,7 +15,8 @@ export default function Mycard(props) {
     <div className="mycard">
       <h5>{props.title}</h5>
       <img src={props.imgLocation} width="100px" height="100px" />
-      <div>Items: {Order}</div>
+      <h6>Price: {props.price}$</h6>
+      <h6>Number of items ordered: {Order}</h6>
       <button onClick={handleOrder}>Add One Item</button>
       <button onClick={handleLessOrder}>Remove One Item</button>
     </div>
