@@ -36,6 +36,7 @@ export default function Basket(props) {
     <div>
       Number of items: {props.totalHamburger + props.totalCheese + props.totalBacon + props.totalFries + props.totalCajunFries + props.totalCocaCola + props.totalSprite + props.totalFanta + props.totalWater}
     </div>
+    <button>Pay</button>
   </div>
   );
 }
