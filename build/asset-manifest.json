@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfec6679.css",
-    "main.js": "/static/js/main.1841c486.js",
+    "main.css": "/static/css/main.cf52c271.css",
+    "main.js": "/static/js/main.45f8c14b.js",
+    "static/media/Five-Guys-Frontpage-Image.png": "/static/media/Five-Guys-Frontpage-Image.931c8fc9ce8d3b9b3482.png",
     "index.html": "/index.html",
-    "main.bfec6679.css.map": "/static/css/main.bfec6679.css.map",
-    "main.1841c486.js.map": "/static/js/main.1841c486.js.map"
+    "main.cf52c271.css.map": "/static/css/main.cf52c271.css.map",
+    "main.45f8c14b.js.map": "/static/js/main.45f8c14b.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfec6679.css",
-    "static/js/main.1841c486.js"
+    "static/css/main.cf52c271.css",
+    "static/js/main.45f8c14b.js"
   ]
 }
