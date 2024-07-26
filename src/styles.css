@@ -48,9 +48,7 @@
 .mycard {
   width: 100px;
   height: 100px;
-  background-color: blue;
   margin: 25px;
-  padding: 25px;
 }
 
 .cardbox {
@@ -65,8 +63,7 @@
 }
 
 .mycard:hover {
-  background-color: green;
+  background-color: black;
   transform: scale(1.2);
-  translate: 50px 0px;
-  transition: 500ms;
+  transition: 0.5s;
 }
