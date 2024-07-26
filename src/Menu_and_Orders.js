@@ -3,11 +3,11 @@ import Mycard from "./Mycard";
 import { useState } from "react";
 
 export default function Menu_and_Orders() {
-  const [totalOrder, setTotalOrder] = useState(0);
+  const [Order, setOrder] = useState(0);
   return (
 
   <div className="cardbox">
-    <Mycard title="Hamburger" imgLocation="images/Hamburger.jpg" />
+    <Mycard title="Hamburger" imgLocation="images/Hamburger.jpg" Order = {Order} setOrder = {setOrder}/>
     <Mycard title="Cheeseburger" imgLocation="images/Cheeseburger.jpg" />
     <Mycard title="Bacon Cheeseburger" imgLocation="images/Bacon_cheeseburger.jpg" />
     <Mycard title="Five Guys Style Fries" imgLocation="images/fries.jpg" />
