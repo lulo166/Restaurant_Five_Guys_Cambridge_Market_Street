@@ -5,6 +5,7 @@ export default function Mycard(props) {
   const [Order, setOrder] = useState(0);
   function handleOrder() {
     setOrder(Order + 1);
+    props.setTotalOrder(props.totalOrder + 1);
   }
   function handleLessOrder() {
     setOrder(Order - 1);
