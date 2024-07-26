@@ -52,14 +52,14 @@
 }
 
 .cardbox {
-  background-color: red;
+  background-color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   color: white;
-  border: 10px solid blue;
+  border: 10px solid red;
 }
 
 .mycard:hover {

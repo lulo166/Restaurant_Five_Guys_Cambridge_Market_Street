@@ -5,16 +5,14 @@ export default function Menu_and_Orders() {
   return (
   <div className="cardbox">
     <Mycard title="Hamburger" imgLocation="images/Hamburger.jpg" />
-    <Mycard title="Cheeseburger" imgLocation="" />
-    <Mycard title="Bacon Burger" imgLocation="" />
-    <Mycard title="Bacon Cheeseburger" imgLocation="" />
-    <Mycard title="Five Guys Style Fries" imgLocation="" />
-    <Mycard title="Cajun Style Fries" imgLocation="" />
-    <Mycard title="Coca Cola" imgLocation="" />
-    <Mycard title="Sprite" imgLocation="" />
-    <Mycard title="Fanta" imgLocation="" />
-    <Mycard title="DrPepper" imgLocation="" />
-    <Mycard title="Water" imgLocation="" />
+    <Mycard title="Cheeseburger" imgLocation="images/Cheeseburger.jpg" />
+    <Mycard title="Bacon Cheeseburger" imgLocation="images/Bacon_cheeseburger.jpg" />
+    <Mycard title="Five Guys Style Fries" imgLocation="images/" />
+    <Mycard title="Cajun Style Fries" imgLocation="images/" />
+    <Mycard title="Coca Cola" imgLocation="images/" />
+    <Mycard title="Sprite" imgLocation="images/" />
+    <Mycard title="Fanta" imgLocation="images/" />
+    <Mycard title="Water" imgLocation="images/" />
 </div>
 );
 }
